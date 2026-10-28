@@ -27,4 +27,4 @@ This tool provides a Streamlit web interface that:
 5. Run the app: `streamlit run app/main.py`
 
 ## Screenshots
-*(Take a screenshot of your Streamlit app and drag it into this README file on GitHub later!)*
+(To be Put on Later with the finalized version with ui fixes)
