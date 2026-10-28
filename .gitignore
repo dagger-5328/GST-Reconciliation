@@ -1,0 +1,21 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data (Never commit financial data or large CSVs)
+data/
+!data/.gitkeep
+*.csv
+*.xlsx
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

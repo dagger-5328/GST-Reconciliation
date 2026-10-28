@@ -34,7 +34,8 @@ DATA_PROCESSED_DIR = "data/processed"
 COLUMN_ALIASES = {
     COL_GSTIN: [
         "gstin", "gst no", "gst number", "supplier gstin", "vendor gstin", 
-        "tax id", "gstin of supplier", "customer gstin"
+        "tax id", "gstin of supplier", "customer gstin", 
+        "vendor_gstin", "supplier_gstin", "gstin/uin" # Added Kaggle and standard formats
     ],
     COL_INVOICE_NO: [
         "invoice number", "invoice no", "inv no", "bill no", "document number", 
@@ -42,6 +43,6 @@ COLUMN_ALIASES = {
     ],
     COL_TOTAL_AMOUNT: [
         "total amount", "invoice value", "total value", "amount", "grand total", 
-        "total invoice value", "total_amount"
+        "total invoice value", "total_amount", "total_value"
     ]
 }
